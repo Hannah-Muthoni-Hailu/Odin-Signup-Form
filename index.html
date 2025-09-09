@@ -25,19 +25,37 @@
             <p><strong>You <em>know</em> you want to.</strong></p>
         </div>
         <form action="">
-            <h5>Let's do this!</h5>
-            <label for="fname">FIRST NAME</label>
-            <input type="text" id="fname" required>
-            <label for="lname">LAST NAME</label>
-            <input type="text" id="lname" required>
-            <label for="email">EMAIL</label>
-            <input type="email" id="email" required>
-            <label for="pnumber">PHONE NUMBER</label>
-            <input type="number" id="pnumber" required>
-            <label for="password">PASSWORD</label>
-            <input type="password" id="password" required>
-            <label for="cpassword">CONFIRM PASSWORD</label>
-            <input type="password" id="cpassword" required>
+            <h5 id="form_heading">Let's do this!</h5>
+            <div id="form_elems">
+                <div>
+                    <fieldset>
+                        <label for="fname">FIRST NAME</label>
+                        <input type="text" id="fname" required>
+                    </fieldset>
+                    <fieldset>
+                        <label for="lname">LAST NAME</label>
+                        <input type="text" id="lname" required>
+                    </fieldset>
+                    <fieldset>
+                        <label for="password">PASSWORD</label>
+                        <input type="password" id="password" required>
+                    </fieldset>
+                </div>
+                <div>
+                    <fieldset>
+                        <label for="email">EMAIL</label>
+                        <input type="email" id="email" required>
+                    </fieldset>
+                    <fieldset>
+                        <label for="pnumber">PHONE NUMBER</label>
+                        <input type="number" id="pnumber" required>
+                    </fieldset>
+                    <fieldset>
+                        <label for="cpassword">CONFIRM PASSWORD</label>
+                        <input type="password" id="cpassword" required>
+                    </fieldset>
+                </div>
+            </div>
             <button type="submit">Create Account</button>
             <p>Already have an account? <a href="http://">Log in</a></p>
         </form>
